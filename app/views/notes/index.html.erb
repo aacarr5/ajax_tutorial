@@ -1,0 +1,12 @@
+<h1> Ajax Notes </h1>
+
+<form action="/notes" method="post">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token%>">
+
+	<p>
+		<input type="text" name="title" id="title">
+		<input type="text" name="content" id="content">
+		<input type="submit" value="Create Note">
+	</p>
+
+</form>
